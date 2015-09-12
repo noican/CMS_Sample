@@ -1,0 +1,126 @@
+html {
+	width:100%;
+}
+
+body {
+	background-color: #BBBBBB;
+	margin:0;
+	padding:0
+}
+
+a:link {
+    color: #05FFD6;
+	text-decoration: none;
+}
+
+a:visited {
+    color: #05FFD6;
+}
+
+a.normal {
+	color: #000000;
+}
+
+#header {
+	display: inline-block;
+	height: 15%;
+	width: 100%;
+	background : #00517F;
+	color: #C3CC22;
+	text-align: left;
+	text-indent : 15px;
+	overflow:hidden; 
+}
+
+#main {
+	display: inline-block;
+	height: 80%;
+	width: 100%;
+	overflow:hidden; 
+}
+
+#navigation {
+	
+	border-radius: 25px;
+	width: 17%;
+	height: 95%;
+	padding-left : 2%;
+	margin-left :1%;
+	margin-top : 1%;
+	float:left; 
+	background: linear-gradient(#0038D1, #00144A);
+	overflow:auto;
+}
+
+#page {
+	border-radius: 25px;
+	width: 77%;
+	height: 95%;
+	margin-left :21%;
+	margin-top : 1%;
+	padding-left : 1%;
+	margin-right : 1%;
+	background: linear-gradient(#0038D1, #00144A);
+	overflow:auto;
+	text-indent : 15px;
+	color: #FF9200;
+}
+
+
+#footer {
+	display: inline-block;
+	position:absolute;
+	vertical-align: middle;
+	margin:0px;
+	height: 5%;
+	width: 100%;
+	background-color: #265F7F;
+	text-align: center;
+	font-color :#ffffff;
+	line-height: 2;
+	overflow:hidden; 
+	color: #D67B00;
+	
+}
+
+h1 {
+	font-family: "Times New Roman", Times, serif;
+	font-style: bold;
+}
+
+h2 {
+	font-family: "Times New Roman", Times, serif;
+	font-style: bold;
+}
+
+
+.subjects {
+	list-style-type: none;
+	text-transform: uppercase;
+	font-weight : normal;
+	padding : 0;
+}
+
+.pages {
+	text-transform: capitalize;
+	font-weight : normal;
+}
+	
+.selected {
+	font-weight : bold;
+	color: #FF0000;
+}
+
+#page_content {
+	width: 96%;
+	padding : 1%;
+	border : 1px solid #C3CC22;
+	color : #C3CC22;
+}
+
+div.message {
+	color : #04FFD6;
+	font-weight : bold;
+	text-align: center;
+}
+
